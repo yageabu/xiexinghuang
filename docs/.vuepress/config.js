@@ -5,7 +5,7 @@ module.exports = {
     themeConfig: {
         title: '技术笔记',
         head: [
-            ['link', { rel: 'icon', href: '/favicon.ico' }]
+            ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]
         ],
         logo: '/assets/img/nav-logo.png',
         nav: [
@@ -30,7 +30,6 @@ module.exports = {
             ],
             '/Dev/': [
                 '',
-                'three',
                 'four'
             ],
             '/': [
