@@ -12,5 +12,8 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
   }
 }

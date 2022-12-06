@@ -1,13 +1,28 @@
 module.exports = {
     base: '/xiexinghuang/',
     title: '阿BU的技术笔记',
-    description: 'Just play',
+    description: 'Hack Everything',
+    plugins: [
+        [
+            '@vuepress/last-updated',
+            {
+                transformer: (timestamp, lang) => {
+                    const moment = require('moment');
+                    moment.locale('zh-cn');
+                    return moment(timestamp).format('YYYY-MM-DD')
+                }
+            }
+        ]
+    ],
     themeConfig: {
-        title: '技术笔记',
+        LastUpdated: '更新时间',
+        title: '阿BU的技术笔记',
         head: [
-            ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]
+            ['link', { rel: 'icon', href: '/favicon.ico' }],
+            ['meta', {name: 'author', content:'谢星煌' }],
+            ['meta', {name: 'keywords', content:'Java 运维手册 云原生 DevOps 敏捷 项目管理' }],
         ],
-        logo: '/assets/img/nav-logo.png',
+        logo: '/assets/img/logo.png',
         nav: [
             { text: '首页', link: '/' },
             { text: '关于', link: '/about' },
@@ -19,11 +34,12 @@ module.exports = {
                     { text: '项目管理', link: '/Agile/' }
                 ]
             },
-            { text: 'Github主页', link: 'https://yageabu.github.io/runningboy/' },
+            { text: 'Github主页', link: 'https://github.com/yageabu' },
         ],
         sidebar: {
             '/DevOps/': [
-                ''
+                '',
+                'DevOps'
             ],
             '/Agile/': [
                 ''
