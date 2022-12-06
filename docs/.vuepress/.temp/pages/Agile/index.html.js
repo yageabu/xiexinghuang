@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-3e64e64c\",\"path\":\"/Agile/\",\"title\":\"Blog\",\"lang\":\"en-US\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"updatedTime\":1670141386000,\"contributors\":[{\"name\":\"yageabu\",\"email\":\"yageabu@163.com\",\"commits\":1}]},\"filePathRelative\":\"Agile/README.md\"}")

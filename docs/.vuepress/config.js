@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/xiexinghuang/',
+    base: "/xiexinghuang/",
     title: '阿BU的技术笔记',
     description: 'Hack Everything',
     plugins: [
@@ -18,7 +18,7 @@ module.exports = {
         LastUpdated: '更新时间',
         title: '阿BU的技术笔记',
         head: [
-            ['link', { rel: 'icon', href: '/favicon.ico' }],
+            ['link', { rel: 'icon', href: './favicon.ico' }],
             ['meta', {name: 'author', content:'谢星煌' }],
             ['meta', {name: 'keywords', content:'Java 运维手册 云原生 DevOps 敏捷 项目管理' }],
         ],

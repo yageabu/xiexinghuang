@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-43930780\",\"path\":\"/Dev/four.html\",\"title\":\"Java基础\",\"lang\":\"en-US\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"updatedTime\":1670296760000,\"contributors\":[{\"name\":\"yageabu\",\"email\":\"yageabu@163.com\",\"commits\":2}]},\"filePathRelative\":\"Dev/four.md\"}")
