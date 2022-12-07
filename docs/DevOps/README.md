@@ -13,7 +13,7 @@ Linux继承了Unix以网络为核心的设计思想，是一个性能稳定的�
 
 
 ## 传统机房运维（IDC）
-## 云原生时代
-……
 
-### Docker与Kubernetes
+## 云计算时代运维
+
+### 容器技术：Docker与Kubernetes
