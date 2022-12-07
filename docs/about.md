@@ -3,18 +3,22 @@ sidebar: false
 ---
 
 ## 关于本站
-思来想去，还是做一个个人的技术主站，记录一些工作上常用的东西，一来是对学习的巩固，二来希望能帮助到更多的人。
+思来想去，还是做一个个人的技术主站，记录一些工作上常用的东西，一来是对学习内容的巩固，二来希望能帮助到更多的人。
+之前有尝试过用Hexo在Github上生成个人Blog，也在公司服务器上部署Docsify用来做团队文档。这两个都是基于js编写的，对于后期维护还是停友好的。
+但是Hexo一个弊端就是界面风格不够简洁，加上一年前对Git、Yaml、Json这类概念还不太熟悉，慢慢的就弃用了。Docsify、Gitbook这些和VuePress比较接近，但是看到VuePress在Github上开源作者一栏有尤大神，就果断选择了VuePress。
+
 2023加油！
 
 ### 如何使用
-点击右上角的技术手册按钮，可以阅读。也可以再Github上帮忙编辑一下文章。
+点击右上角的技术手册按钮，可以直接阅读，也可以在Github上帮忙编辑一下文章。
 
 ## 关于作者
 <div align=center>
 <img :src="$withBase('/assets/img/profile.png')" style="zoom:30%">
 </div>
 
-我叫谢星煌，坐标海南海口，是一名信息管理员，对Web开发与运维有着浓厚兴趣，选择的语言是Java，喜欢的前端框架是Vue，故本站选择了VuePress。
+我叫谢星煌，坐标海南海口，是一名信息管理员，对Web开发与运维有着浓厚兴趣，尝试过使用JavaWeb、SSM框架和Springboot框架，对于简单的后台开发尝试过Express和Django。
+后来认识了Vue、尤雨溪，最近在狂啃前端。
 
 大学毕业后第一份工作是在电信从事客户服务工作，主要是在主营业厅和客户服务部门，期间接受了关于销售管理和客户服务的培训，尤其是关于客户投诉管理的学习。
 这帮助我打下了良好的沟通基础。
@@ -40,3 +44,9 @@ sidebar: false
 <img :src="$withBase('/assets/img/qrcode.jpg')" style="zoom:30%">
 <img :src="$withBase('/assets/img/addme.jpg')" style="zoom:23.2%">
 </div>
+
+---
+**本站目的就是打造个人工作的手册，比较零散的文章都写在[掘金主页](https://juejin.cn/user/515025701703543)和[csdn主页](https://blog.csdn.net/m0_46428800)上了**
+
+
+
