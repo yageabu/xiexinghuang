@@ -46,7 +46,8 @@ module.exports = {
             ],
             '/Dev/': [
                 '',
-                'four'
+                'four',
+                'Servlet'
             ],
             '/': [
                 ''
