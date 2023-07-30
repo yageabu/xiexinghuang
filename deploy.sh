@@ -23,3 +23,5 @@ git commit -m 'deploy'
 git push -f git@github.com:yageabu/xiexinghuang.git main:gh-pages
 
 cd -
+
+echo '按任意键退出'
