@@ -9,3 +9,14 @@
 - 如果是SSL错误可能是node版本太高，尝试在控制台输入这句话set NODE_OPTIONS=--openssl-legacy-provider
   
 - 部署到github
+  先运行npm run docs:build 打包生成.vuepress/dist目录  
+  然后Git上传到gh-pages分支，然后将根目录所有文件也通过Git上传到main分支下，注意：本地可能是master  
+  然后在Gitee上同步一下仓库资料，因为国内的比较块。  
+  
+- 页面地址 [https://xiexinghuang.gitee.io/](https://xiexinghuang.gitee.io/)
+
+
+### 注意事项
+- 注意在.vuepress/config.js中，base路径要写成/，否则会出现404错误
+- 注意在.vuepress/config.js中，head中title要写成你自己的名字，否则会出现404错误
+- 注意在.vuepress/config.js中，head中favicon要写成你自己的favicon地址
