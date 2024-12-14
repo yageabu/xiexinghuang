@@ -4,7 +4,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
         ['meta', { name: 'author', content:'谢星煌' }],
-        ['meta', { name: 'keywords', content:'Java Vue 运维手册 云原生 DevOps 敏捷 项目管理' }]
+        ['meta', { name: 'keywords', content:'Java Vue 运维 云原生 DevOps 敏捷 项目管理 大数据' }]
     ],
     description: 'Hack Everything',
     plugins: [
@@ -31,7 +31,16 @@ module.exports = {
                 items: [
                     { text: '运维', link: '/DevOps/' },
                     { text: '后端', link: '/Dev/' },
-                    { text: '前端', link: '/Front_end/' }
+                    { text: '前端', link: '/Front_end/' },
+                    { text: '大数据', link: '/Bigdata/' }
+                ]
+            },
+            {
+                text: '管理手册',
+                items: [
+                    { text: '敏捷转型', link: '/Bigdata/' },
+                    { text: 'Jira说明书', link: '/Bigdata/' },
+                    { text: '人生操作系统使用手册', link: '/Bigdata/' }
                 ]
             },
             { text: 'Github主页', link: 'https://github.com/yageabu' },
