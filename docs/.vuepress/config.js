@@ -1,5 +1,5 @@
 module.exports = {
-    base: "/xiexinghuang/",
+    base: "/notes/",
     title: '阿BU的技术笔记',
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],

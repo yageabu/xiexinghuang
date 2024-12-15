@@ -20,3 +20,4 @@
 - 注意在.vuepress/config.js中，base路径要写成/，否则会出现404错误
 - 注意在.vuepress/config.js中，head中title要写成你自己的名字，否则会出现404错误
 - 注意在.vuepress/config.js中，head中favicon要写成你自己的favicon地址
+- 不把.idea、node_modules、docs/.vuepress/dist放入代码包中保存，每次拉取都要重新npm i一下，重新build一下，以后用vscode打开
