@@ -2,11 +2,14 @@
   "name": "xiexinghuang",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/yageabu/xiexinghuang.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yageabu/xiexinghuang.git"
+  },
   "author": "yageabu <yageabu@163.com>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.9"
+    "vuepress": "^1.9.10"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
@@ -15,5 +18,13 @@
   },
   "dependencies": {
     "moment": "^2.29.4"
+  },
+  "description": "打算用VuePress做一下个人笔记练习，加油2023！",
+  "bugs": {
+    "url": "https://github.com/yageabu/xiexinghuang/issues"
+  },
+  "homepage": "https://github.com/yageabu/xiexinghuang#readme",
+  "directories": {
+    "doc": "docs"
   }
 }
